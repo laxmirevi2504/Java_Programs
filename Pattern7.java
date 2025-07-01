@@ -1,0 +1,32 @@
+package fundamentals;
+
+import java.util.Scanner;
+
+public class Pattern7 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int i=1;
+        while(i<=n) {//for row
+        int j=1;
+        while(j<=n)
+        {
+        	System.out.print(i);//for column
+        	j=j+1;
+        }
+        System.out.println();
+        i=i+1;
+        }
+	}
+
+}
+
+//output
+//4
+//1111
+//2222
+//3333
+//4444
+
